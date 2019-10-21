@@ -5,5 +5,5 @@ bootstrap = Bootstrap()
 
 app = Flask(__name__)
 
-# creating flask extensions
+# Initializing flask extensions
 bootstrap.init_app(app)
